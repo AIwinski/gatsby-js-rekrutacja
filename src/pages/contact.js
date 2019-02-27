@@ -9,9 +9,9 @@ import Hr from "../components/Hr/Hr";
 import Section from "../components/Section/Section";
 import Text from '../components/Text/Text';
 
-const IndexPage = () => (
+const ContactPage = () => (
     <Layout>
-        <Hero imageUrl={image}>Home</Hero>
+        <Hero imageUrl={image}>contact</Hero>
         <Container>
             <Title as="h2" primary>who we are</Title>
             <Hr></Hr>
@@ -59,4 +59,4 @@ const IndexPage = () => (
     </Layout>
 )
 
-export default IndexPage;
+export default ContactPage;
